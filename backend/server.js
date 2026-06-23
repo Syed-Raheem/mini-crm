@@ -13,7 +13,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://YOUR_FRONTEND_URL.vercel.app"
+      "https://mini-crm-seven-iota.vercel.app/"
     ],
     credentials: true,
   })
