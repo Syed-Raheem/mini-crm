@@ -74,9 +74,10 @@ function Dashboard() {
           <p>Manage client leads, follow-ups, and conversions.</p>
         </div>
 
-        <button className="logout-btn" onClick={logout}>
-          Logout
-        </button>
+        <div className="header-actions">
+          <button onClick={() => navigate("/submit-lead")}>Add Lead</button>
+          <button className="logout-btn" onClick={logout}>Logout</button>
+        </div>
       </div>
 
       <div className="stats">

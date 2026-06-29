@@ -75,7 +75,7 @@ function ContactForm() {
           <button type="submit">Submit Lead</button>
         </form>
 
-        <a href="/login">Admin Login</a>
+        <a href="/dashboard">Back to Dashboard</a>
       </div>
     </div>
   );
