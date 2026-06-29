@@ -45,8 +45,6 @@ function Login() {
 
           <button type="submit">Login</button>
         </form>
-
-        <a href="/">Back to Contact Form</a>
       </div>
     </div>
   );
